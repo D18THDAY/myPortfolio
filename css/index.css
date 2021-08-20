@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+}
+
+header{
+    display: flex;
+    flex: column;
+    border: none;
+    padding: 30px;
+    color: white;
+    background-color: rgba(13, 14, 13, 0.8);
+}
+
+header .logo{
+    width: 50%;
+    margin-left: 50px;
+    text-align: left;
+}
+
+header .menu ul{
+    width: 50%;
+    display: inline;
+    text-align: left;
+    margin: auto;
+}
+
+header .menu ul li {
+    display: inline;
+    padding: 10px 50px 10px 0px;
+    font-weight: bold;
+}
+
+header .menu ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.highlight{
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    line-height: 2.2em;
+}
+
+.highlight span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.highlight-text{
+    padding: 120px 0;
+    text-align: left;
+}
+
+.highlight-button{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(12, 9, 236);
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+.skills{
+    background-color: rgb(20, 20, 20);
+}
+
+.skills .box{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    color: white;
+}
+
+.skills h2{ 
+    color: white;
+    padding: 50px;
+}
+
+.skills img{
+    width: 300px;
+    height: 300px;
+}
+
+.contact{
+    font-size: 1.2em;
+    padding: 20px 10px 20px 30px;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.contact #form-success{
+    text-align: center;
+    color: red;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+textarea{
+    padding: 10px 0 0 20px;
+    border-radius: 10px;
+    width: 635px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    padding-bottom: 0;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+footer div{
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer div span{
+    font-family: cursive;
+    font-size: 1.3em;
+}
+
+footer .logos img{
+    width: 150px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 0 5px;
+}
