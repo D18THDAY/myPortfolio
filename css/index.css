@@ -96,8 +96,27 @@ h2{
     border-radius: 20px;
 }
 
+.projects{
+    margin-bottom: 0;
+    background-image: url("projectbackground.jpg");
+}
+
+.projects .boxes .box{
+    width: 50%;
+}
+
+.projects .boxes .box p{
+    color:rgb(20, 20, 20);
+    list-style: none;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 2em;
+    font-weight: bold;
+}
+
 .skills{
     background-color: rgb(20, 20, 20);
+    margin-top: 0;
 }
 
 .skills .box{
@@ -145,7 +164,7 @@ textarea{
 }
 
 footer{
-    background-color: blanchedalmond;
+    background-color: rgb(100, 99, 98);
     padding-bottom: 0;
 }
 
